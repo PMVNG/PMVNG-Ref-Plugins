@@ -1,0 +1,30 @@
+{
+  "server": {
+    "name": "FCA",
+    "address": "play.fcape.vn",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "13/07/2020",
+    "plugin_count": 4,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "DevTools",
+      "version": "1.13.2"
+    },
+    {
+      "name": "CombinedSlots",
+      "version": "1.1_async"
+    },
+    {
+      "name": "CustomAlerts",
+      "version": "1.7"
+    },
+    {
+      "name": "RedirectServer",
+      "version": "0.0.1"
+    }
+  ]
+}

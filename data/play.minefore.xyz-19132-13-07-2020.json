@@ -1,0 +1,274 @@
+{
+  "server": {
+    "name": "MineFore",
+    "address": "play.minefore.xyz",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "13/07/2020",
+    "plugin_count": 65,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "NganHang",
+      "version": "1"
+    },
+    {
+      "name": "WorldProtect",
+      "version": "2.3.8"
+    },
+    {
+      "name": "Police",
+      "version": "1"
+    },
+    {
+      "name": "DevTools",
+      "version": "1.13.0"
+    },
+    {
+      "name": "ScoreHud",
+      "version": "2.0.0"
+    },
+    {
+      "name": "SimpleTPA",
+      "version": "1"
+    },
+    {
+      "name": "KitUI",
+      "version": "1.3.5"
+    },
+    {
+      "name": "MiningRewards",
+      "version": "1.5"
+    },
+    {
+      "name": "Sell",
+      "version": "2"
+    },
+    {
+      "name": "PurePerms",
+      "version": "1.4.3"
+    },
+    {
+      "name": "DEVirion",
+      "version": "1.2.5-ALPHA12"
+    },
+    {
+      "name": "PM-Beacons",
+      "version": "1.0.5"
+    },
+    {
+      "name": "MSpawns",
+      "version": "2.2"
+    },
+    {
+      "name": "SizePlayer",
+      "version": "1.0.3"
+    },
+    {
+      "name": "Slapper",
+      "version": "1.5.3"
+    },
+    {
+      "name": "WarpsPro",
+      "version": "1.3.0"
+    },
+    {
+      "name": "CustomAlerts",
+      "version": "2.1"
+    },
+    {
+      "name": "NameCorrector",
+      "version": "1.0.0#build011"
+    },
+    {
+      "name": "VoteReward",
+      "version": "3.0.3"
+    },
+    {
+      "name": "NameTag",
+      "version": "1"
+    },
+    {
+      "name": "Alias",
+      "version": "1.2.0"
+    },
+    {
+      "name": "PlayerVaults",
+      "version": "3.2.0"
+    },
+    {
+      "name": "AutoInv",
+      "version": "1.0.0"
+    },
+    {
+      "name": "TopKills",
+      "version": "1"
+    },
+    {
+      "name": "SimpleHome",
+      "version": "1.0.3"
+    },
+    {
+      "name": "AutoFix",
+      "version": "1"
+    },
+    {
+      "name": "TheoDoi",
+      "version": "1.2.0"
+    },
+    {
+      "name": "TinhNangBoSung",
+      "version": "1.0.0"
+    },
+    {
+      "name": "AntiSpam",
+      "version": "1.3"
+    },
+    {
+      "name": "EconomyAPI",
+      "version": "5.7.2"
+    },
+    {
+      "name": "PureChat",
+      "version": "1.4.11"
+    },
+    {
+      "name": "FormAPI",
+      "version": "1.1"
+    },
+    {
+      "name": "InvCrashFix",
+      "version": "0.0.1"
+    },
+    {
+      "name": "InvSee",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ItemDropText",
+      "version": "1.0.0"
+    },
+    {
+      "name": "NoAdvertisingPE",
+      "version": "1.0.1"
+    },
+    {
+      "name": "LoadWorlds",
+      "version": "1.1"
+    },
+    {
+      "name": "PointAPI",
+      "version": "2.0.9"
+    },
+    {
+      "name": "BurgerSellWands",
+      "version": "1.0.0"
+    },
+    {
+      "name": "Rewards",
+      "version": "4.0"
+    },
+    {
+      "name": "RandomOre",
+      "version": "2.0.0"
+    },
+    {
+      "name": "ShellyEssentials",
+      "version": "1.0.2"
+    },
+    {
+      "name": "TopVoter",
+      "version": "3.2.0"
+    },
+    {
+      "name": "iProtector",
+      "version": "3.1.1"
+    },
+    {
+      "name": "DoEmote",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ShopUI",
+      "version": "0.0.1"
+    },
+    {
+      "name": "NoTP",
+      "version": "1.0.7"
+    },
+    {
+      "name": "MysteryCrate",
+      "version": "9.1.1"
+    },
+    {
+      "name": "GCPClan",
+      "version": "1.1"
+    },
+    {
+      "name": "SlapperRotation",
+      "version": "1.2.1"
+    },
+    {
+      "name": "AutoXP",
+      "version": "1.1.0"
+    },
+    {
+      "name": "Texter",
+      "version": "3.4.8"
+    },
+    {
+      "name": "TeaSpoon",
+      "version": "1.2.0"
+    },
+    {
+      "name": "Eternity",
+      "version": "1"
+    },
+    {
+      "name": "MuaPoint",
+      "version": "3.5"
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": "2.3.0"
+    },
+    {
+      "name": "NapTheUI",
+      "version": "1.0.87"
+    },
+    {
+      "name": "RedSkyBlock",
+      "version": "3.1.1"
+    },
+    {
+      "name": "BossSpawner",
+      "version": "0.2"
+    },
+    {
+      "name": "DeTuMF",
+      "version": "3.0.0"
+    },
+    {
+      "name": "ShinPickaxeLevel",
+      "version": "6.0.0"
+    },
+    {
+      "name": "MenuUI",
+      "version": "2"
+    },
+    {
+      "name": "Mage",
+      "version": "1.12.0c"
+    },
+    {
+      "name": "AuctionHouse",
+      "version": "1.1.0"
+    },
+    {
+      "name": "ChoDen",
+      "version": "2"
+    }
+  ]
+}

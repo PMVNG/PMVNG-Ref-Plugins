@@ -1,0 +1,306 @@
+{
+  "server": {
+    "name": "LOR",
+    "address": "play.royalvn.net",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "13/07/2020",
+    "plugin_count": 73,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "essentialsTP",
+      "version": "1.2.1"
+    },
+    {
+      "name": "WorldProtect",
+      "version": "2.3.8"
+    },
+    {
+      "name": "DevTools",
+      "version": "1.13.1"
+    },
+    {
+      "name": "DEVirion",
+      "version": "1.2.6"
+    },
+    {
+      "name": "PurePerms",
+      "version": "1.4.2-c2a"
+    },
+    {
+      "name": "AlwaysSpawn",
+      "version": "2.2.4"
+    },
+    {
+      "name": "GrabBag",
+      "version": "2.4.3"
+    },
+    {
+      "name": "Broadcaster",
+      "version": "1.5"
+    },
+    {
+      "name": "LORDial",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ManyWorlds",
+      "version": "2.2.0"
+    },
+    {
+      "name": "FactionsPro",
+      "version": "1.3.11-8"
+    },
+    {
+      "name": "MIE_Converter",
+      "version": "1.0.2"
+    },
+    {
+      "name": "KitUI",
+      "version": "1.3.1"
+    },
+    {
+      "name": "SkyBlockPE",
+      "version": "3.0.0"
+    },
+    {
+      "name": "LORParkour",
+      "version": "1.0.0"
+    },
+    {
+      "name": "MagicWE2",
+      "version": "7.0.0"
+    },
+    {
+      "name": "Auction",
+      "version": "1"
+    },
+    {
+      "name": "AutoInv",
+      "version": "0.0.10"
+    },
+    {
+      "name": "LORShowInfo",
+      "version": "1"
+    },
+    {
+      "name": "MSpawns",
+      "version": "2.2"
+    },
+    {
+      "name": "TimeCommander",
+      "version": "2.1"
+    },
+    {
+      "name": "MiniBosses",
+      "version": "2.0.2"
+    },
+    {
+      "name": "CommandTracker",
+      "version": "1.1"
+    },
+    {
+      "name": "Jail_finish",
+      "version": "0.0.2"
+    },
+    {
+      "name": "LORCoinAPI",
+      "version": "1.0.0"
+    },
+    {
+      "name": "FlyWorld",
+      "version": "0.0.1"
+    },
+    {
+      "name": "SpecialBlock",
+      "version": "1.3.4"
+    },
+    {
+      "name": "GiftCode",
+      "version": "3.0.0"
+    },
+    {
+      "name": "LORSize",
+      "version": "2.0.0"
+    },
+    {
+      "name": "BlockPets",
+      "version": "1.1.2"
+    },
+    {
+      "name": "PureChat",
+      "version": "1.4.11"
+    },
+    {
+      "name": "ChoTroiByThienTuu",
+      "version": "1.0.0"
+    },
+    {
+      "name": "NapThe",
+      "version": "2"
+    },
+    {
+      "name": "iProtector",
+      "version": "3.1b"
+    },
+    {
+      "name": "LORItem",
+      "version": "1.0.0"
+    },
+    {
+      "name": "NameCorrector",
+      "version": "1.0.0#build011"
+    },
+    {
+      "name": "LORWings",
+      "version": "2"
+    },
+    {
+      "name": "Repair",
+      "version": "1.0.1"
+    },
+    {
+      "name": "ShopUIMadeByThienTuu",
+      "version": "1.0.0"
+    },
+    {
+      "name": "BestSB",
+      "version": "2.0.0"
+    },
+    {
+      "name": "ShopCoin",
+      "version": "1.0.0"
+    },
+    {
+      "name": "MIE_Protector",
+      "version": "1.0.4"
+    },
+    {
+      "name": "WorldFixer",
+      "version": "1"
+    },
+    {
+      "name": "BetterVoting",
+      "version": "1.5.0"
+    },
+    {
+      "name": "LORVIP",
+      "version": "1.0.0"
+    },
+    {
+      "name": "FormAPI",
+      "version": "1.2.0"
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": "2.3.0"
+    },
+    {
+      "name": "ClearLagg",
+      "version": "1.1.0"
+    },
+    {
+      "name": "DatCuoc",
+      "version": "1.0.0"
+    },
+    {
+      "name": "KeepInventory",
+      "version": "1.0"
+    },
+    {
+      "name": "CustomAlerts",
+      "version": "2.1"
+    },
+    {
+      "name": "EconomyAPI",
+      "version": "5.7.2"
+    },
+    {
+      "name": "LORBE",
+      "version": "2.0.0"
+    },
+    {
+      "name": "SlapperRotation",
+      "version": "1.2.1"
+    },
+    {
+      "name": "OLR",
+      "version": "1"
+    },
+    {
+      "name": "BossAnnouncement",
+      "version": "2.0.4"
+    },
+    {
+      "name": "Drop_Party",
+      "version": "1.0.0"
+    },
+    {
+      "name": "MapImageEngine",
+      "version": "1.1.3"
+    },
+    {
+      "name": "LORKBSystem",
+      "version": "1.0.0"
+    },
+    {
+      "name": "TeaSpoon",
+      "version": "1.3.0"
+    },
+    {
+      "name": "Banking_vonfram",
+      "version": "1"
+    },
+    {
+      "name": "XpilowPetMenu",
+      "version": "1.14.0"
+    },
+    {
+      "name": "LORInfo",
+      "version": "0.1.0"
+    },
+    {
+      "name": "SkyBlockUI",
+      "version": "1.0.5"
+    },
+    {
+      "name": "TapToDo",
+      "version": "2.3.0"
+    },
+    {
+      "name": "Energy",
+      "version": "1.0.0"
+    },
+    {
+      "name": "LORMission",
+      "version": "0.0.0"
+    },
+    {
+      "name": "Slapper",
+      "version": "1.5.2"
+    },
+    {
+      "name": "AFKSystem",
+      "version": "1"
+    },
+    {
+      "name": "FormImagesFix",
+      "version": "0.0.1"
+    },
+    {
+      "name": "ShopEnergyMadeByThienTuu",
+      "version": "1.0.0"
+    },
+    {
+      "name": "QuestPlugin",
+      "version": "3.1"
+    },
+    {
+      "name": "Sell",
+      "version": "3.0.0"
+    }
+  ]
+}

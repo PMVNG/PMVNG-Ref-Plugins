@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMVNG Plugin Reference</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #ffffff;
+            color: #000000;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #FF5555;
+        }
+
+        h1 {
+            color: #FF5555;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: #f8f8f8;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #FF5555;
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 85, 85, 0.1);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: 700;
+            color: #FF5555;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        input[type="text"],
+        select {
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.2s;
+        }
+
+        input[type="text"]:focus,
+        select:focus {
+            outline: none;
+            border-color: #FF5555;
+        }
+
+        .server-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .server-card {
+            background: #ffffff;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .server-card:hover {
+            border-color: #FF5555;
+            box-shadow: 0 4px 12px rgba(255, 85, 85, 0.15);
+        }
+
+        .server-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .server-name {
+            font-size: 1.3em;
+            font-weight: 700;
+            color: #FF5555;
+        }
+
+        .server-address {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+
+        .server-meta {
+            display: flex;
+            gap: 15px;
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .plugin-count {
+            background: #FF5555;
+            color: white;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .plugins-preview {
+            margin-top: 15px;
+        }
+
+        .plugins-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            max-height: 150px;
+            overflow-y: auto;
+        }
+
+        .plugin-tag {
+            background: #f0f0f0;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #333;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            overflow-y: auto;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 900px;
+            width: 100%;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #FF5555;
+        }
+
+        .close-btn {
+            background: #FF5555;
+            color: white;
+            border: none;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background 0.2s;
+        }
+
+        .close-btn:hover {
+            background: #ff3333;
+        }
+
+        .plugin-detail {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .plugin-item {
+            padding: 12px;
+            background: #f8f8f8;
+            border-radius: 6px;
+            border-left: 3px solid #FF5555;
+        }
+
+        .plugin-item-name {
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 5px;
+        }
+
+        .plugin-item-version {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .server-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .filters {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PMVNG Plugin Reference</h1>
+            <p class="subtitle">Thống kê và quản lý plugins từ các server</p>
+        </header>
+
+        <div class="stats" id="stats">
+            <div class="stat-card">
+                <div class="stat-value" id="totalServers">0</div>
+                <div class="stat-label">Tổng số Server</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="totalPlugins">0</div>
+                <div class="stat-label">Tổng số Plugin</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="avgPlugins">0</div>
+                <div class="stat-label">Trung bình Plugin/Server</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="uniquePlugins">0</div>
+                <div class="stat-label">Plugin Unique</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-group">
+                <input type="text" id="searchInput" placeholder="Tìm kiếm server hoặc plugin...">
+            </div>
+            <div class="filter-group">
+                <select id="sortSelect">
+                    <option value="name">Sắp xếp theo tên</option>
+                    <option value="plugins">Sắp xếp theo số plugin</option>
+                    <option value="date">Sắp xếp theo ngày</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">Đang tải dữ liệu...</div>
+        <div class="server-grid" id="serverGrid"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <h2 id="modalServerName"></h2>
+                    <p id="modalServerAddress" class="server-address"></p>
+                </div>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let allServers = [];
+        let filteredServers = [];
+        let allPlugins = new Set();
+
+        // Load all JSON files
+        async function loadData() {
+            const files = [
+                'data/endland.ddns.net-43342-16-01-2023.json',
+                'data/jinodk.ddns.net-19132-23-02-2023.json',
+                'data/kov.ddns.net-22222.json',
+                'data/langmoiz.net-19132.json',
+                'data/luckyflamemc.ddns.net-19442-16-01-2023.json',
+                'data/mc.locm.network-19133-16-01-2023.json',
+                'data/mhvn.ddns.net-19132-13-07-2020.json',
+                'data/minefore.ddns.net-19132-23-02-2023.json',
+                'data/peacevn.xyz-19132-16-01-2023.json',
+                'data/play.fcape.vn-19132-13-07-2020.json',
+                'data/play.minefore.xyz-19132-13-07-2020.json',
+                'data/play.royalvn.net-19132-13-07-2020.json',
+                'data/play.skyvn.net-19132-13-07-2020.json'
+            ];
+
+            try {
+                const promises = files.map(file => 
+                    fetch(file)
+                        .then(res => res.ok ? res.json() : null)
+                        .catch(() => null)
+                );
+                
+                const results = await Promise.all(promises);
+                allServers = results.filter(s => s !== null);
+                
+                // Collect all unique plugins
+                allServers.forEach(server => {
+                    if (server.plugins) {
+                        server.plugins.forEach(plugin => {
+                            allPlugins.add(plugin.name);
+                        });
+                    }
+                });
+
+                filteredServers = [...allServers];
+                renderStats();
+                renderServers();
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('loading').textContent = 'Lỗi khi tải dữ liệu';
+            }
+        }
+
+        function renderStats() {
+            const totalServers = allServers.length;
+            const totalPlugins = allServers.reduce((sum, s) => sum + s.metadata.plugin_count, 0);
+            const avgPlugins = totalServers > 0 ? (totalPlugins / totalServers).toFixed(1) : 0;
+            const uniquePlugins = allPlugins.size;
+
+            document.getElementById('totalServers').textContent = totalServers;
+            document.getElementById('totalPlugins').textContent = totalPlugins;
+            document.getElementById('avgPlugins').textContent = avgPlugins;
+            document.getElementById('uniquePlugins').textContent = uniquePlugins;
+        }
+
+        function renderServers() {
+            const grid = document.getElementById('serverGrid');
+            grid.innerHTML = '';
+
+            filteredServers.forEach(server => {
+                const card = document.createElement('div');
+                card.className = 'server-card';
+                card.onclick = () => openModal(server);
+
+                const plugins = server.plugins || [];
+                const previewPlugins = plugins.slice(0, 10);
+
+                card.innerHTML = `
+                    <div class="server-header">
+                        <div>
+                            <div class="server-name">${server.server.name || server.server.address}</div>
+                            <div class="server-address">${server.server.address}:${server.server.port}</div>
+                        </div>
+                        <div class="plugin-count">${server.metadata.plugin_count} plugins</div>
+                    </div>
+                    <div class="server-meta">
+                        <span>📅 ${server.metadata.collected_at && server.metadata.collected_at !== '?' ? server.metadata.collected_at : 'Chưa xác định'}</span>
+                    </div>
+                    <div class="plugins-preview">
+                        <div class="plugins-list">
+                            ${previewPlugins.map(p => 
+                                `<span class="plugin-tag">${p.name}${p.version ? ' v' + p.version : ''}</span>`
+                            ).join('')}
+                            ${plugins.length > 10 ? `<span class="plugin-tag">+${plugins.length - 10} more</span>` : ''}
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        function openModal(server) {
+            const modal = document.getElementById('modal');
+            const plugins = server.plugins || [];
+
+            document.getElementById('modalServerName').textContent = server.server.name || server.server.address;
+            document.getElementById('modalServerAddress').textContent = `${server.server.address}:${server.server.port}`;
+
+            const content = document.getElementById('modalContent');
+            content.innerHTML = `
+                <div class="server-meta">
+                    <p><strong>Ngày thu thập:</strong> ${server.metadata.collected_at && server.metadata.collected_at !== '?' ? server.metadata.collected_at : 'Chưa xác định'}</p>
+                    <p><strong>Tổng số plugin:</strong> ${server.metadata.plugin_count}</p>
+                </div>
+                <h3 style="margin-top: 20px; margin-bottom: 15px; color: #FF5555;">Danh sách Plugins (${plugins.length})</h3>
+                <div class="plugin-detail">
+                    ${plugins.map(p => `
+                        <div class="plugin-item">
+                            <div class="plugin-item-name">${p.name}</div>
+                            <div class="plugin-item-version">${p.version || 'Không có version'}</div>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            modal.classList.add('active');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        // Search and filter
+        document.getElementById('searchInput').addEventListener('input', (e) => {
+            const query = e.target.value.toLowerCase();
+            filteredServers = allServers.filter(server => {
+                const name = (server.server.name || server.server.address).toLowerCase();
+                const address = server.server.address.toLowerCase();
+                const plugins = (server.plugins || []).map(p => p.name.toLowerCase()).join(' ');
+                return name.includes(query) || address.includes(query) || plugins.includes(query);
+            });
+            renderServers();
+        });
+
+        document.getElementById('sortSelect').addEventListener('change', (e) => {
+            const sortBy = e.target.value;
+            filteredServers.sort((a, b) => {
+                switch(sortBy) {
+                    case 'name':
+                        return (a.server.name || a.server.address).localeCompare(b.server.name || b.server.address);
+                    case 'plugins':
+                        return b.metadata.plugin_count - a.metadata.plugin_count;
+                    case 'date':
+                        const dateA = a.metadata.collected_at && a.metadata.collected_at !== '?' 
+                            ? new Date(a.metadata.collected_at.split('/').reverse().join('-'))
+                            : new Date(0);
+                        const dateB = b.metadata.collected_at && b.metadata.collected_at !== '?' 
+                            ? new Date(b.metadata.collected_at.split('/').reverse().join('-'))
+                            : new Date(0);
+                        return dateB - dateA;
+                    default:
+                        return 0;
+                }
+            });
+            renderServers();
+        });
+
+        // Close modal on outside click
+        document.getElementById('modal').addEventListener('click', (e) => {
+            if (e.target.id === 'modal') {
+                closeModal();
+            }
+        });
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,430 @@
+{
+  "server": {
+    "name": "LuckyFlameMC",
+    "address": "luckyflamemc.ddns.net",
+    "port": 19442
+  },
+  "metadata": {
+    "collected_at": "16/01/2023",
+    "plugin_count": 104,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "AcidRain",
+      "version": null
+    },
+    {
+      "name": "AlwaysSpawn",
+      "version": null
+    },
+    {
+      "name": "AntiToolboxTS",
+      "version": null
+    },
+    {
+      "name": "AntiVoid",
+      "version": null
+    },
+    {
+      "name": "AuctionHouse",
+      "version": null
+    },
+    {
+      "name": "AutoFix",
+      "version": null
+    },
+    {
+      "name": "AutoPickup",
+      "version": null
+    },
+    {
+      "name": "AutoSell",
+      "version": null
+    },
+    {
+      "name": "AutoXP",
+      "version": null
+    },
+    {
+      "name": "BanCommands",
+      "version": null
+    },
+    {
+      "name": "Bankv2",
+      "version": null
+    },
+    {
+      "name": "BetterItemID",
+      "version": null
+    },
+    {
+      "name": "BetterMute",
+      "version": null
+    },
+    {
+      "name": "BuilderTools",
+      "version": null
+    },
+    {
+      "name": "BuyKey",
+      "version": null
+    },
+    {
+      "name": "ChangeProtocol",
+      "version": null
+    },
+    {
+      "name": "ClanScore",
+      "version": null
+    },
+    {
+      "name": "ClassPM4",
+      "version": null
+    },
+    {
+      "name": "ClearLag",
+      "version": null
+    },
+    {
+      "name": "CoinAPI",
+      "version": null
+    },
+    {
+      "name": "CoinAPIScore",
+      "version": null
+    },
+    {
+      "name": "CustomAlerts",
+      "version": null
+    },
+    {
+      "name": "CustomForm",
+      "version": null
+    },
+    {
+      "name": "CustomItemLoader",
+      "version": null
+    },
+    {
+      "name": "CustomShopUI",
+      "version": null
+    },
+    {
+      "name": "DailyAttendance",
+      "version": null
+    },
+    {
+      "name": "DanhGia",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "DiepVien",
+      "version": null
+    },
+    {
+      "name": "DoiTien",
+      "version": null
+    },
+    {
+      "name": "EcoAPIScore",
+      "version": null
+    },
+    {
+      "name": "EconomyAPI",
+      "version": null
+    },
+    {
+      "name": "essentialsTP",
+      "version": null
+    },
+    {
+      "name": "FishUI",
+      "version": null
+    },
+    {
+      "name": "FloatingText",
+      "version": null
+    },
+    {
+      "name": "FlyPM4",
+      "version": null
+    },
+    {
+      "name": "FormAPI",
+      "version": null
+    },
+    {
+      "name": "FormImagesFix",
+      "version": null
+    },
+    {
+      "name": "FreezeTime",
+      "version": null
+    },
+    {
+      "name": "GCPClan",
+      "version": null
+    },
+    {
+      "name": "GiftCodePM4",
+      "version": null
+    },
+    {
+      "name": "HuongDan",
+      "version": null
+    },
+    {
+      "name": "ImageOnMap",
+      "version": null
+    },
+    {
+      "name": "InfoTag",
+      "version": null
+    },
+    {
+      "name": "InvCrashFix",
+      "version": null
+    },
+    {
+      "name": "ItemDropText",
+      "version": null
+    },
+    {
+      "name": "ItemFactory",
+      "version": null
+    },
+    {
+      "name": "JackpotPM4",
+      "version": null
+    },
+    {
+      "name": "Jump",
+      "version": null
+    },
+    {
+      "name": "KeepExp",
+      "version": null
+    },
+    {
+      "name": "KeepInventory",
+      "version": null
+    },
+    {
+      "name": "KeyClass",
+      "version": null
+    },
+    {
+      "name": "Lixi",
+      "version": null
+    },
+    {
+      "name": "MagicSkills",
+      "version": null
+    },
+    {
+      "name": "MathQuestion",
+      "version": null
+    },
+    {
+      "name": "MaxEnchants",
+      "version": null
+    },
+    {
+      "name": "Menu",
+      "version": null
+    },
+    {
+      "name": "MenuTOP",
+      "version": null
+    },
+    {
+      "name": "MineLevel",
+      "version": null
+    },
+    {
+      "name": "Mission",
+      "version": null
+    },
+    {
+      "name": "MultiProtocol",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "MyItem",
+      "version": null
+    },
+    {
+      "name": "NapThe",
+      "version": null
+    },
+    {
+      "name": "Netherite",
+      "version": null
+    },
+    {
+      "name": "NightVision",
+      "version": null
+    },
+    {
+      "name": "PiggyCrates",
+      "version": null
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": null
+    },
+    {
+      "name": "PlayerTrade",
+      "version": null
+    },
+    {
+      "name": "PlayerVaults",
+      "version": null
+    },
+    {
+      "name": "PointAPI",
+      "version": null
+    },
+    {
+      "name": "PointAPIScore",
+      "version": null
+    },
+    {
+      "name": "PureChat",
+      "version": null
+    },
+    {
+      "name": "PurePerms",
+      "version": null
+    },
+    {
+      "name": "RandomBlockPM4",
+      "version": null
+    },
+    {
+      "name": "RankAddon",
+      "version": null
+    },
+    {
+      "name": "RedSkyBlockUI",
+      "version": null
+    },
+    {
+      "name": "RepairPM4",
+      "version": null
+    },
+    {
+      "name": "ScoreHud",
+      "version": null
+    },
+    {
+      "name": "SellAll",
+      "version": null
+    },
+    {
+      "name": "SellExp",
+      "version": null
+    },
+    {
+      "name": "SETVIP",
+      "version": null
+    },
+    {
+      "name": "ShopNap",
+      "version": null
+    },
+    {
+      "name": "ShopRank",
+      "version": null
+    },
+    {
+      "name": "SimpleBroadcast",
+      "version": null
+    },
+    {
+      "name": "SimpleNPC",
+      "version": null
+    },
+    {
+      "name": "SizeUI",
+      "version": null
+    },
+    {
+      "name": "Speed",
+      "version": null
+    },
+    {
+      "name": "SspPM4",
+      "version": null
+    },
+    {
+      "name": "Strength",
+      "version": null
+    },
+    {
+      "name": "Sudo",
+      "version": null
+    },
+    {
+      "name": "TellRaw",
+      "version": null
+    },
+    {
+      "name": "ThongTin",
+      "version": null
+    },
+    {
+      "name": "TopOnline",
+      "version": null
+    },
+    {
+      "name": "TotemJoin",
+      "version": null
+    },
+    {
+      "name": "TradeNPC",
+      "version": null
+    },
+    {
+      "name": "TrangBi",
+      "version": null
+    },
+    {
+      "name": "VanillaEnchantments",
+      "version": null
+    },
+    {
+      "name": "VanillaFishing",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "WarpGUI",
+      "version": null
+    },
+    {
+      "name": "WorldProtect",
+      "version": null
+    },
+    {
+      "name": "WorldTime",
+      "version": null
+    }
+  ]
+}

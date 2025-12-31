@@ -1,0 +1,350 @@
+{
+  "server": {
+    "name": "EndLand",
+    "address": "endland.ddns.net",
+    "port": 43342
+  },
+  "metadata": {
+    "collected_at": "16/01/2023",
+    "plugin_count": 84,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "AdvancedItem",
+      "version": null
+    },
+    {
+      "name": "AlwaysSpawn",
+      "version": null
+    },
+    {
+      "name": "AnswerQuestion",
+      "version": null
+    },
+    {
+      "name": "AutoClearChunk",
+      "version": null
+    },
+    {
+      "name": "AutoSellUI",
+      "version": null
+    },
+    {
+      "name": "BlazinFly",
+      "version": null
+    },
+    {
+      "name": "Broadcaster",
+      "version": null
+    },
+    {
+      "name": "BuilderTools",
+      "version": null
+    },
+    {
+      "name": "BuyCMD",
+      "version": null
+    },
+    {
+      "name": "BuyFix",
+      "version": null
+    },
+    {
+      "name": "BuyFly",
+      "version": null
+    },
+    {
+      "name": "ClanScore",
+      "version": null
+    },
+    {
+      "name": "ClearLag",
+      "version": null
+    },
+    {
+      "name": "CoinAPI",
+      "version": null
+    },
+    {
+      "name": "CoinAPIcore",
+      "version": null
+    },
+    {
+      "name": "CouponAPI",
+      "version": null
+    },
+    {
+      "name": "CouponAPIScore",
+      "version": null
+    },
+    {
+      "name": "CustomAlerts",
+      "version": null
+    },
+    {
+      "name": "Customies",
+      "version": null
+    },
+    {
+      "name": "CustomShopUI",
+      "version": null
+    },
+    {
+      "name": "DailyAttendance",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "DinoUI",
+      "version": null
+    },
+    {
+      "name": "DoiCoin",
+      "version": null
+    },
+    {
+      "name": "EcoAPIScore",
+      "version": null
+    },
+    {
+      "name": "EconomyAPI",
+      "version": null
+    },
+    {
+      "name": "EnchantShop",
+      "version": null
+    },
+    {
+      "name": "FormAPI",
+      "version": null
+    },
+    {
+      "name": "FreezeTime",
+      "version": null
+    },
+    {
+      "name": "GCPClan",
+      "version": null
+    },
+    {
+      "name": "GiftCode",
+      "version": null
+    },
+    {
+      "name": "HuongDan",
+      "version": null
+    },
+    {
+      "name": "InfoTag",
+      "version": null
+    },
+    {
+      "name": "ItemDropText",
+      "version": null
+    },
+    {
+      "name": "KeepInventory",
+      "version": null
+    },
+    {
+      "name": "KhoeItem",
+      "version": null
+    },
+    {
+      "name": "Market",
+      "version": null
+    },
+    {
+      "name": "MaxEnchants",
+      "version": null
+    },
+    {
+      "name": "MenuUI",
+      "version": null
+    },
+    {
+      "name": "MineLevel",
+      "version": null
+    },
+    {
+      "name": "MineReset",
+      "version": null
+    },
+    {
+      "name": "Minion",
+      "version": null
+    },
+    {
+      "name": "MinionShopUI",
+      "version": null
+    },
+    {
+      "name": "MosaicGems",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "MuteTime",
+      "version": null
+    },
+    {
+      "name": "MyItem",
+      "version": null
+    },
+    {
+      "name": "Netherite",
+      "version": null
+    },
+    {
+      "name": "OreGen",
+      "version": null
+    },
+    {
+      "name": "OreSpawner",
+      "version": null
+    },
+    {
+      "name": "PiggyCrates",
+      "version": null
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": null
+    },
+    {
+      "name": "PlayerVaults",
+      "version": null
+    },
+    {
+      "name": "PMMLP",
+      "version": null
+    },
+    {
+      "name": "PureChat",
+      "version": null
+    },
+    {
+      "name": "PurePerms",
+      "version": null
+    },
+    {
+      "name": "PurePermsScore",
+      "version": null
+    },
+    {
+      "name": "Quets",
+      "version": null
+    },
+    {
+      "name": "ScoreHud",
+      "version": null
+    },
+    {
+      "name": "SeasonPass",
+      "version": null
+    },
+    {
+      "name": "SeasonShop",
+      "version": null
+    },
+    {
+      "name": "Sell",
+      "version": null
+    },
+    {
+      "name": "SellExp",
+      "version": null
+    },
+    {
+      "name": "SellStick",
+      "version": null
+    },
+    {
+      "name": "SETVIP",
+      "version": null
+    },
+    {
+      "name": "ShopOSP",
+      "version": null
+    },
+    {
+      "name": "SimpleFeed",
+      "version": null
+    },
+    {
+      "name": "SimpleHeal",
+      "version": null
+    },
+    {
+      "name": "SimpleHubDelay",
+      "version": null
+    },
+    {
+      "name": "SizeUI",
+      "version": null
+    },
+    {
+      "name": "Skyblock",
+      "version": null
+    },
+    {
+      "name": "Slapper",
+      "version": null
+    },
+    {
+      "name": "SlapperRotationV2",
+      "version": null
+    },
+    {
+      "name": "StarterKit",
+      "version": null
+    },
+    {
+      "name": "TBankAPI",
+      "version": null
+    },
+    {
+      "name": "ThueVipUI",
+      "version": null
+    },
+    {
+      "name": "TradeNPC",
+      "version": null
+    },
+    {
+      "name": "Twerk_Fertilizer",
+      "version": null
+    },
+    {
+      "name": "VanillaEC",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "Voting38",
+      "version": null
+    },
+    {
+      "name": "WarpUI",
+      "version": null
+    },
+    {
+      "name": "WorldProtect",
+      "version": null
+    }
+  ]
+}

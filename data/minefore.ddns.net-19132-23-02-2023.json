@@ -1,0 +1,254 @@
+{
+  "server": {
+    "name": "MineFore",
+    "address": "minefore.ddns.net",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "23/02/2023",
+    "plugin_count": 60,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "AlwaysSpawn",
+      "version": null
+    },
+    {
+      "name": "AutoEXP",
+      "version": null
+    },
+    {
+      "name": "AutoPickup",
+      "version": null
+    },
+    {
+      "name": "AutoSellUI",
+      "version": null
+    },
+    {
+      "name": "BanTextChat",
+      "version": null
+    },
+    {
+      "name": "BuyFlyTime",
+      "version": null
+    },
+    {
+      "name": "class",
+      "version": null
+    },
+    {
+      "name": "coin_server",
+      "version": null
+    },
+    {
+      "name": "CropGrowth",
+      "version": null
+    },
+    {
+      "name": "CustomAlerts",
+      "version": null
+    },
+    {
+      "name": "CustomShopUI",
+      "version": null
+    },
+    {
+      "name": "DailyMission",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "FishingRod",
+      "version": null
+    },
+    {
+      "name": "FormAPI",
+      "version": null
+    },
+    {
+      "name": "GCPClan",
+      "version": null
+    },
+    {
+      "name": "InvSee",
+      "version": null
+    },
+    {
+      "name": "KeepInventory",
+      "version": null
+    },
+    {
+      "name": "kit",
+      "version": null
+    },
+    {
+      "name": "LiXi",
+      "version": null
+    },
+    {
+      "name": "LoadAllWorlds",
+      "version": null
+    },
+    {
+      "name": "MathQuestion",
+      "version": null
+    },
+    {
+      "name": "MenuUI",
+      "version": null
+    },
+    {
+      "name": "muapoint",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "MuteTime",
+      "version": null
+    },
+    {
+      "name": "MyItem",
+      "version": null
+    },
+    {
+      "name": "Netherite",
+      "version": null
+    },
+    {
+      "name": "NickUI",
+      "version": null
+    },
+    {
+      "name": "No4dSkins",
+      "version": null
+    },
+    {
+      "name": "onlinetime",
+      "version": null
+    },
+    {
+      "name": "OreGen",
+      "version": null
+    },
+    {
+      "name": "PHP-Sell",
+      "version": null
+    },
+    {
+      "name": "PickaxeLevelUI",
+      "version": null
+    },
+    {
+      "name": "PlayerVaults",
+      "version": null
+    },
+    {
+      "name": "Profile",
+      "version": null
+    },
+    {
+      "name": "PureChat",
+      "version": null
+    },
+    {
+      "name": "PurePerms",
+      "version": null
+    },
+    {
+      "name": "ReallyCheat",
+      "version": null
+    },
+    {
+      "name": "Reward",
+      "version": null
+    },
+    {
+      "name": "ScoreHud",
+      "version": null
+    },
+    {
+      "name": "SellExp",
+      "version": null
+    },
+    {
+      "name": "SETVIP",
+      "version": null
+    },
+    {
+      "name": "showitem",
+      "version": null
+    },
+    {
+      "name": "skinplayer",
+      "version": null
+    },
+    {
+      "name": "Skyblock",
+      "version": null
+    },
+    {
+      "name": "Slapper",
+      "version": null
+    },
+    {
+      "name": "SlapperRotation",
+      "version": null
+    },
+    {
+      "name": "SocialSpy",
+      "version": null
+    },
+    {
+      "name": "tagup",
+      "version": null
+    },
+    {
+      "name": "Taixiu",
+      "version": null
+    },
+    {
+      "name": "ThueVipUI",
+      "version": null
+    },
+    {
+      "name": "TopTime",
+      "version": null
+    },
+    {
+      "name": "TradeNPC",
+      "version": null
+    },
+    {
+      "name": "Upgrade",
+      "version": null
+    },
+    {
+      "name": "VanillaEC",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "WFT",
+      "version": null
+    },
+    {
+      "name": "WorldProtect",
+      "version": null
+    }
+  ]
+}

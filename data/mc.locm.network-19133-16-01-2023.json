@@ -1,0 +1,234 @@
+{
+  "server": {
+    "name": "LOCM",
+    "address": "mc.locm.network",
+    "port": 19133
+  },
+  "metadata": {
+    "collected_at": "16/01/2023",
+    "plugin_count": 55,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "AggressiveOptz",
+      "version": null
+    },
+    {
+      "name": "Attendance",
+      "version": null
+    },
+    {
+      "name": "AutoClearChunk",
+      "version": null
+    },
+    {
+      "name": "Beacon",
+      "version": null
+    },
+    {
+      "name": "Bet",
+      "version": null
+    },
+    {
+      "name": "BlockSniper",
+      "version": null
+    },
+    {
+      "name": "BravoClan",
+      "version": null
+    },
+    {
+      "name": "BuilderTools",
+      "version": null
+    },
+    {
+      "name": "BurgerCustomArmor",
+      "version": null
+    },
+    {
+      "name": "Crate",
+      "version": null
+    },
+    {
+      "name": "DailyQuest",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "discord",
+      "version": null
+    },
+    {
+      "name": "DiscordBot",
+      "version": null
+    },
+    {
+      "name": "DonateBox",
+      "version": null
+    },
+    {
+      "name": "DungeonBoss",
+      "version": null
+    },
+    {
+      "name": "EnchantExtra",
+      "version": null
+    },
+    {
+      "name": "Fireworks",
+      "version": null
+    },
+    {
+      "name": "FishingEvent",
+      "version": null
+    },
+    {
+      "name": "FloatingText",
+      "version": null
+    },
+    {
+      "name": "FormAPI",
+      "version": null
+    },
+    {
+      "name": "GiftCode",
+      "version": null
+    },
+    {
+      "name": "InvCrashFix",
+      "version": null
+    },
+    {
+      "name": "InvSee",
+      "version": null
+    },
+    {
+      "name": "iProtector",
+      "version": null
+    },
+    {
+      "name": "Lcoin",
+      "version": null
+    },
+    {
+      "name": "LOCMJail",
+      "version": null
+    },
+    {
+      "name": "LOCMRequisites",
+      "version": null
+    },
+    {
+      "name": "LOCMSkyblock",
+      "version": null
+    },
+    {
+      "name": "LootBox",
+      "version": null
+    },
+    {
+      "name": "Lottery",
+      "version": null
+    },
+    {
+      "name": "Mineflow",
+      "version": null
+    },
+    {
+      "name": "Mini-me",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "NapThe",
+      "version": null
+    },
+    {
+      "name": "Netherite",
+      "version": null
+    },
+    {
+      "name": "NPC",
+      "version": null
+    },
+    {
+      "name": "NukerChecker",
+      "version": null
+    },
+    {
+      "name": "OreGenerator",
+      "version": null
+    },
+    {
+      "name": "PiggyAuctions",
+      "version": null
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": null
+    },
+    {
+      "name": "PureChat",
+      "version": null
+    },
+    {
+      "name": "PurePerms",
+      "version": null
+    },
+    {
+      "name": "RankSystem",
+      "version": null
+    },
+    {
+      "name": "ResourcePackEncryption",
+      "version": null
+    },
+    {
+      "name": "Seasons",
+      "version": null
+    },
+    {
+      "name": "SimpleLay",
+      "version": null
+    },
+    {
+      "name": "SkyBlockCore",
+      "version": null
+    },
+    {
+      "name": "SlapperRotationV2",
+      "version": null
+    },
+    {
+      "name": "TempRanks",
+      "version": null
+    },
+    {
+      "name": "Texter",
+      "version": null
+    },
+    {
+      "name": "Trader",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "Warp",
+      "version": null
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "server": {
+    "name": "PeaceVN",
+    "address": "peacevn.xyz",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "16/01/2023",
+    "plugin_count": 95,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "AlwaysSpawn",
+      "version": null
+    },
+    {
+      "name": "AuctionHouse",
+      "version": null
+    },
+    {
+      "name": "AutoClearLagg",
+      "version": null
+    },
+    {
+      "name": "AutoFeed",
+      "version": null
+    },
+    {
+      "name": "AutoFix",
+      "version": null
+    },
+    {
+      "name": "AutoPickup",
+      "version": null
+    },
+    {
+      "name": "AutoSell",
+      "version": null
+    },
+    {
+      "name": "Badge",
+      "version": null
+    },
+    {
+      "name": "BanCommands",
+      "version": null
+    },
+    {
+      "name": "BanItem-PM4",
+      "version": null
+    },
+    {
+      "name": "Bank",
+      "version": null
+    },
+    {
+      "name": "BasicScore",
+      "version": null
+    },
+    {
+      "name": "BetterMute",
+      "version": null
+    },
+    {
+      "name": "BlockPets",
+      "version": null
+    },
+    {
+      "name": "Boss",
+      "version": null
+    },
+    {
+      "name": "BossBar",
+      "version": null
+    },
+    {
+      "name": "BowManager",
+      "version": null
+    },
+    {
+      "name": "Broadcaster",
+      "version": null
+    },
+    {
+      "name": "BuilderTools",
+      "version": null
+    },
+    {
+      "name": "BuyFly",
+      "version": null
+    },
+    {
+      "name": "BuyRankUI",
+      "version": null
+    },
+    {
+      "name": "BuyXuUI",
+      "version": null
+    },
+    {
+      "name": "ChatThin",
+      "version": null
+    },
+    {
+      "name": "ClanScore",
+      "version": null
+    },
+    {
+      "name": "CustomAlerts",
+      "version": null
+    },
+    {
+      "name": "CustomShopUI",
+      "version": null
+    },
+    {
+      "name": "DanhGia",
+      "version": null
+    },
+    {
+      "name": "DatCuocTime",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "DichChuyen",
+      "version": null
+    },
+    {
+      "name": "DiemDanh",
+      "version": null
+    },
+    {
+      "name": "DropTime",
+      "version": null
+    },
+    {
+      "name": "EcoAPIScore",
+      "version": null
+    },
+    {
+      "name": "EconomyAPI",
+      "version": null
+    },
+    {
+      "name": "EnchantUI",
+      "version": null
+    },
+    {
+      "name": "EnchantVipUI",
+      "version": null
+    },
+    {
+      "name": "Fishing",
+      "version": null
+    },
+    {
+      "name": "Fix",
+      "version": null
+    },
+    {
+      "name": "FormAPI",
+      "version": null
+    },
+    {
+      "name": "GCPClan",
+      "version": null
+    },
+    {
+      "name": "GiveExp",
+      "version": null
+    },
+    {
+      "name": "HotBlock",
+      "version": null
+    },
+    {
+      "name": "Huongdan",
+      "version": null
+    },
+    {
+      "name": "InvCrashFix",
+      "version": null
+    },
+    {
+      "name": "InvSee",
+      "version": null
+    },
+    {
+      "name": "ItemDropText",
+      "version": null
+    },
+    {
+      "name": "JackpotPM4",
+      "version": null
+    },
+    {
+      "name": "KeepInventory",
+      "version": null
+    },
+    {
+      "name": "KitFood",
+      "version": null
+    },
+    {
+      "name": "MaxEnchants",
+      "version": null
+    },
+    {
+      "name": "MenuAuto",
+      "version": null
+    },
+    {
+      "name": "MenuPet",
+      "version": null
+    },
+    {
+      "name": "Mission",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "MyItem",
+      "version": null
+    },
+    {
+      "name": "Napthe",
+      "version": null
+    },
+    {
+      "name": "NoFarmlandDecay",
+      "version": null
+    },
+    {
+      "name": "NVSSP",
+      "version": null
+    },
+    {
+      "name": "OnlineReward",
+      "version": null
+    },
+    {
+      "name": "PHP-Sell",
+      "version": null
+    },
+    {
+      "name": "PiggyCrates",
+      "version": null
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": null
+    },
+    {
+      "name": "PlayerVaults",
+      "version": null
+    },
+    {
+      "name": "Police",
+      "version": null
+    },
+    {
+      "name": "PureChat",
+      "version": null
+    },
+    {
+      "name": "PurePerms",
+      "version": null
+    },
+    {
+      "name": "PurePermsScore",
+      "version": null
+    },
+    {
+      "name": "QuyenRank",
+      "version": null
+    },
+    {
+      "name": "RandomBlockPM4",
+      "version": null
+    },
+    {
+      "name": "RedSkyBlockUI",
+      "version": null
+    },
+    {
+      "name": "SCoinAPI",
+      "version": null
+    },
+    {
+      "name": "SCoinAPIScore",
+      "version": null
+    },
+    {
+      "name": "ScoreHud",
+      "version": null
+    },
+    {
+      "name": "SellExp",
+      "version": null
+    },
+    {
+      "name": "SellWand",
+      "version": null
+    },
+    {
+      "name": "SEnchant",
+      "version": null
+    },
+    {
+      "name": "SETVIP",
+      "version": null
+    },
+    {
+      "name": "ShopKey",
+      "version": null
+    },
+    {
+      "name": "ShopNap",
+      "version": null
+    },
+    {
+      "name": "SimpleNPC",
+      "version": null
+    },
+    {
+      "name": "SizeUI",
+      "version": null
+    },
+    {
+      "name": "SnoopPM4",
+      "version": null
+    },
+    {
+      "name": "SspPM4",
+      "version": null
+    },
+    {
+      "name": "StarterKit",
+      "version": null
+    },
+    {
+      "name": "theSpawn",
+      "version": null
+    },
+    {
+      "name": "ThueFly",
+      "version": null
+    },
+    {
+      "name": "TimeCommander",
+      "version": null
+    },
+    {
+      "name": "TradeNPC",
+      "version": null
+    },
+    {
+      "name": "VanillaElytra",
+      "version": null
+    },
+    {
+      "name": "VanillaEnchantments",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "Voting38",
+      "version": null
+    },
+    {
+      "name": "WorldGuard",
+      "version": null
+    },
+    {
+      "name": "WorldProtect",
+      "version": null
+    }
+  ]
+}

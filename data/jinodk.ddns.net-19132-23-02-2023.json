@@ -1,0 +1,194 @@
+{
+  "server": {
+    "name": "JINODK",
+    "address": "jinodk.ddns.net",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "23/02/2023",
+    "plugin_count": 45,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "Backpack",
+      "version": null
+    },
+    {
+      "name": "Bank",
+      "version": null
+    },
+    {
+      "name": "BazaarShop",
+      "version": null
+    },
+    {
+      "name": "BetterVoting",
+      "version": null
+    },
+    {
+      "name": "BlockPets",
+      "version": null
+    },
+    {
+      "name": "BlockSniper",
+      "version": null
+    },
+    {
+      "name": "BuilderTools",
+      "version": null
+    },
+    {
+      "name": "ClearLagg",
+      "version": null
+    },
+    {
+      "name": "CrashReader",
+      "version": null
+    },
+    {
+      "name": "CustomAlerts",
+      "version": null
+    },
+    {
+      "name": "CustomBreakTimeAPI",
+      "version": null
+    },
+    {
+      "name": "Customies",
+      "version": null
+    },
+    {
+      "name": "CustomShopUI",
+      "version": null
+    },
+    {
+      "name": "DailyReward",
+      "version": null
+    },
+    {
+      "name": "DEVirion",
+      "version": null
+    },
+    {
+      "name": "DevTools",
+      "version": null
+    },
+    {
+      "name": "EconomyAPI",
+      "version": null
+    },
+    {
+      "name": "FavoriteIslands",
+      "version": null
+    },
+    {
+      "name": "FI-CustomAddons",
+      "version": null
+    },
+    {
+      "name": "FI-Farms",
+      "version": null
+    },
+    {
+      "name": "FI-FishingModule",
+      "version": null
+    },
+    {
+      "name": "FI-GameHandle",
+      "version": null
+    },
+    {
+      "name": "FI-IslandMaker",
+      "version": null
+    },
+    {
+      "name": "FI-Lang",
+      "version": null
+    },
+    {
+      "name": "FI-RankPrefix",
+      "version": null
+    },
+    {
+      "name": "FI-ScoreLoader",
+      "version": null
+    },
+    {
+      "name": "FI-SkillLevel",
+      "version": null
+    },
+    {
+      "name": "Hierarchy",
+      "version": null
+    },
+    {
+      "name": "HRKChat",
+      "version": null
+    },
+    {
+      "name": "INether",
+      "version": null
+    },
+    {
+      "name": "InvCraft",
+      "version": null
+    },
+    {
+      "name": "InvSee",
+      "version": null
+    },
+    {
+      "name": "Island",
+      "version": null
+    },
+    {
+      "name": "lmao",
+      "version": null
+    },
+    {
+      "name": "Mail",
+      "version": null
+    },
+    {
+      "name": "MOTDShuffle",
+      "version": null
+    },
+    {
+      "name": "MultiWorld",
+      "version": null
+    },
+    {
+      "name": "NameSpaceRemover",
+      "version": null
+    },
+    {
+      "name": "PlayerAuto",
+      "version": null
+    },
+    {
+      "name": "RedstoneCircuit",
+      "version": null
+    },
+    {
+      "name": "refAddonsManager",
+      "version": null
+    },
+    {
+      "name": "ResourcePackLoader",
+      "version": null
+    },
+    {
+      "name": "ScoreHud",
+      "version": null
+    },
+    {
+      "name": "VanillaHopper",
+      "version": null
+    },
+    {
+      "name": "_NewAlias",
+      "version": null
+    }
+  ]
+}

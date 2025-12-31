@@ -1,0 +1,326 @@
+{
+  "server": {
+    "name": "SkyVN",
+    "address": "play.skyvn.net",
+    "port": 19132
+  },
+  "metadata": {
+    "collected_at": "13/07/2020",
+    "plugin_count": 78,
+    "version": "1.0"
+  },
+  "plugins": [
+    {
+      "name": "MagicWE2",
+      "version": "10.0.2"
+    },
+    {
+      "name": "ScoreHud",
+      "version": "5.1.1"
+    },
+    {
+      "name": "DevTools",
+      "version": "1.14.0"
+    },
+    {
+      "name": "InvSee",
+      "version": "1.0.0"
+    },
+    {
+      "name": "EC-TableUI",
+      "version": "1.1.1-pre"
+    },
+    {
+      "name": "PurePerms",
+      "version": "1.4.2-c2a"
+    },
+    {
+      "name": "PiggyCustomEnchants",
+      "version": "2.3.0"
+    },
+    {
+      "name": "essentialsTP",
+      "version": "1.2.2"
+    },
+    {
+      "name": "FormAPI",
+      "version": "1.3.0"
+    },
+    {
+      "name": "KeepInventory",
+      "version": "1.0"
+    },
+    {
+      "name": "DEVirion",
+      "version": "1.2.7"
+    },
+    {
+      "name": "PiggyShopUI",
+      "version": "2.1.1"
+    },
+    {
+      "name": "Fishing",
+      "version": "0.4"
+    },
+    {
+      "name": "NapTheUI",
+      "version": "0.0.1"
+    },
+    {
+      "name": "DoEmote",
+      "version": "1.0.0"
+    },
+    {
+      "name": "WorldProtect",
+      "version": "2.3.8"
+    },
+    {
+      "name": "SBCMD",
+      "version": "0.1"
+    },
+    {
+      "name": "SeasonPass",
+      "version": "1.0.0"
+    },
+    {
+      "name": "EconomyAPI",
+      "version": "5.7.2"
+    },
+    {
+      "name": "PureEntitiesX",
+      "version": "0.6.8"
+    },
+    {
+      "name": "AllAPILoader",
+      "version": "1.0.0"
+    },
+    {
+      "name": "PVPlevelRPG",
+      "version": "8.2"
+    },
+    {
+      "name": "RankShop",
+      "version": "0.1"
+    },
+    {
+      "name": "AutoInv",
+      "version": "0.0.10"
+    },
+    {
+      "name": "ItemFrameProtector",
+      "version": "0.1.0"
+    },
+    {
+      "name": "TeaSpoon",
+      "version": "1.2.0"
+    },
+    {
+      "name": "MineLevel",
+      "version": "1.0.0"
+    },
+    {
+      "name": "Level",
+      "version": "0.1"
+    },
+    {
+      "name": "TokenName",
+      "version": "0.1"
+    },
+    {
+      "name": "Shield",
+      "version": "1.0.0"
+    },
+    {
+      "name": "SlapperRotation",
+      "version": "1.2.1"
+    },
+    {
+      "name": "SPointShop",
+      "version": "4.1"
+    },
+    {
+      "name": "BlazinVanish",
+      "version": "1.0.3"
+    },
+    {
+      "name": "BlazinFly",
+      "version": "1.8.7"
+    },
+    {
+      "name": "SellAll",
+      "version": "1.2.10.2"
+    },
+    {
+      "name": "AutoSell",
+      "version": "0.3.lpk"
+    },
+    {
+      "name": "CursorInvFixer",
+      "version": "1.0.0"
+    },
+    {
+      "name": "Slapper",
+      "version": "1.5.1"
+    },
+    {
+      "name": "FactionsPro",
+      "version": "1.3.20"
+    },
+    {
+      "name": "Minion",
+      "version": "1.0.4"
+    },
+    {
+      "name": "Equipment",
+      "version": "0.1"
+    },
+    {
+      "name": "XPChange",
+      "version": "1.0.0"
+    },
+    {
+      "name": "BuyCmd",
+      "version": "4"
+    },
+    {
+      "name": "LimitGMC",
+      "version": "2.0.2"
+    },
+    {
+      "name": "ClearInventory",
+      "version": "1.0.0"
+    },
+    {
+      "name": "TradeNPC",
+      "version": "1.0.0"
+    },
+    {
+      "name": "ManyWorlds",
+      "version": "2.2.0"
+    },
+    {
+      "name": "AutoXP",
+      "version": "1.1.0"
+    },
+    {
+      "name": "BetterVoting",
+      "version": "1.6"
+    },
+    {
+      "name": "MysUFarms",
+      "version": "0.0.1"
+    },
+    {
+      "name": "BossPlugin",
+      "version": "3.21"
+    },
+    {
+      "name": "PiggyCrates",
+      "version": "2.0.6"
+    },
+    {
+      "name": "Rewards",
+      "version": "3"
+    },
+    {
+      "name": "Broadcaster",
+      "version": "1.5"
+    },
+    {
+      "name": "VCoin",
+      "version": "1.0.1"
+    },
+    {
+      "name": "Repair",
+      "version": "1.0.1"
+    },
+    {
+      "name": "NoHunger",
+      "version": "1.0.3"
+    },
+    {
+      "name": "MSpawns",
+      "version": "2.2"
+    },
+    {
+      "name": "LoadAllWorlds",
+      "version": "1.0.1"
+    },
+    {
+      "name": "noVoid",
+      "version": "0.0.1"
+    },
+    {
+      "name": "ToolUpgrade",
+      "version": "1.0.1"
+    },
+    {
+      "name": "Generators",
+      "version": "1.0"
+    },
+    {
+      "name": "PiggyPersonaSkins",
+      "version": "1.0.0"
+    },
+    {
+      "name": "StatManager",
+      "version": "0.1"
+    },
+    {
+      "name": "AntiTNT",
+      "version": "0.1"
+    },
+    {
+      "name": "PlayerVaults",
+      "version": "3.2.0"
+    },
+    {
+      "name": "McMMO",
+      "version": "1.0.0"
+    },
+    {
+      "name": "PortalsPE",
+      "version": "2.0.0"
+    },
+    {
+      "name": "PureChat",
+      "version": "1.4.11"
+    },
+    {
+      "name": "QuestPlugin",
+      "version": "3.1"
+    },
+    {
+      "name": "AliasReborn",
+      "version": "1.0.0"
+    },
+    {
+      "name": "iProtector",
+      "version": "3.1.0-8"
+    },
+    {
+      "name": "ClearLagg",
+      "version": "1.1.0"
+    },
+    {
+      "name": "SkyBlock",
+      "version": "1"
+    },
+    {
+      "name": "VIPEffect",
+      "version": "1"
+    },
+    {
+      "name": "RulesUI",
+      "version": "0.0.2"
+    },
+    {
+      "name": "CustomAlerts",
+      "version": "1.8"
+    },
+    {
+      "name": "NameCorrector",
+      "version": "1.0.0#build011"
+    }
+  ]
+}
